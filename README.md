@@ -17,7 +17,7 @@ Now that you have a workspace, clone or download this repo into the src director
 ```sh
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/udacity/RoboND-Perception-Project.git
-
+```
 Now install missing dependencies using rosdep install:
 ```sh
 $ cd ~/catkin_ws

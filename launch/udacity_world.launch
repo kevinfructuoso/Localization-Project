@@ -21,11 +21,11 @@
   <include file="$(find udacity_bot)/launch/robot_description.launch" />
 
   <!-- Uncomment this block to use the Udacity Bot
-  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output = "screen" args="-urdf -param robot_description -model my_bot"/>
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output = "screen" args="-urdf -param robot_description -model udacity_bot"/>
    -->
 
-  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output = "screen" args="-urdf -param robot_description -model udacity_bot"/>
 
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output = "screen" args="-urdf -param robot_description -model my_bot"/>
 
   <!-- launch rviz -->
   <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>

@@ -3,10 +3,11 @@
 
     <!-- send urdf to the param server -->
 <!-- Uncomment to use Udacity Bot (be sure to add two hyphens in front of inorder)
-    <param name="robot_description" command="$(find xacro)/xacro inorder '$(find udacity_bot)/urdf/my_bot.xacro'" />
+    <param name="robot_description" command="$(find xacro)/xacro inorder '$(find udacity_bot)/urdf/udacity_bot.xacro'" />
 -->
 
-    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find udacity_bot)/urdf/udacity_bot.xacro'" />
+
+    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find udacity_bot)/urdf/my_bot.xacro'" />
 
 
     <!-- Send fake joint values-->

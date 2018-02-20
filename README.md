@@ -1,13 +1,17 @@
 # Where Am I? Localization Project
 
-[R2D2_bot]: ./images/R2D2_bot.PNG
-[udacity_bot]: ./images/udacity_bot.PNG
+[R2D2_bot]: 
+[udacity_bot]: 
 
 In this project, the goal is to implement the Adaptive Monte Carlo Localization (AMCL) method in order to determine a robots pose within the Robot Operating System (ROS). A custom ROS package was built leveraging the AMCL and Move Base ROS packages to localize a custom-defined robot in order to complete this project. This project features an R2D2 look-a-like bot with a camera and laser-range finder.
 
-![udacity bot][udacity_bot]
+<p align="center">
+  <img src="./images/udacity_bot.PNG">
+</p>
 
-![R2D2 bot][R2D2_bot]
+<p align="center">
+  <img src="./images/R2D2_bot.PNG">
+</p>
 
 <p align="center">
   <img src="./images/R2D2_bot.gif">
